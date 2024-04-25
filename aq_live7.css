@@ -46,7 +46,7 @@
 }
 
 .AF_Match.gools {
-    --asp-stast-bg: #ffa007
+    --asp-stast-bg: #39dbbf;
 }
 
 .AF_Match.live {
@@ -165,7 +165,7 @@
 }
 
 .AlbaSportFixture .tablinks.active {
-    background: #5037ff;
+    background: #39dbbf;
     color: #fff
 }
 
@@ -229,8 +229,8 @@
 
 .AlbaSportFixture .AF_MaskText {
     margin-top: 0;
-    background-color: #5037ff;
-    color: #fff;
+    background-color: var(--asp-stast-bg);
+    color: #ffffff;
     padding: 5px 30px;
     font-size: 14px;
     line-height: 22px;
@@ -327,10 +327,10 @@
 }
 
 .AlbaSportFixture .AF_EvStat .AF_StaText {
-    color: #fff;
+    color: #ffffff;
     padding: 4px 8px;
     border-radius: 20px;
-    background: #5037ff;
+    background: var(--asp-stast-bg);
     font-weight: 700;
     font-size: 12px;
     margin: 0 auto;
@@ -732,7 +732,7 @@
 }
 
 .AlbaSportFixture.aspwp_dark_style .AF_Title .asp-title,.AlbaSportFixture.aspwp_dark_style .tablinks {
-    color: #fff
+    color: #ffffff;
 }
 
 @media screen and (max-width: 767px) {
